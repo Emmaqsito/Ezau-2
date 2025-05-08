@@ -20,16 +20,7 @@ public class ArrayBidimensional {
                 sum = sum + matriz[i][j];
             }
             System.out.println("Fila " + i + " " + sum);
-            if (i == 0) {
-                sum = x;
-                sum = 0;
-            } else if (i == 1) {
-                sum = a;
-                sum = 0;
-            } else if (i == 2) {
-                sum = b;
-                sum = 0;
-            }
+            sum = 0;
         }
     }
 }
