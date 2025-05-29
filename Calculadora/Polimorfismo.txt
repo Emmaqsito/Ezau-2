@@ -1,0 +1,36 @@
+El polimorfismo es un concepto de la programación orientada a objetos que permite que un mismo método o 
+función se comporte de diferentes maneras según el objeto que lo invoque. En otras palabras, el polimorfismo 
+permite usar una interfaz común para diferentes tipos de objetos.
+
+Tipos de polimorfismo:
+
+Polimorfismo en tiempo de compilación (sobrecarga): Varios métodos con el mismo nombre pero diferentes
+parámetros.
+Polimorfismo en tiempo de ejecución (sobrescritura): Una subclase redefine un método de su superclase.
+class Animal {
+    void hacerSonido() {
+        System.out.println("El animal hace un sonido");
+    }
+}
+
+class Perro extends Animal {
+    void hacerSonido() {
+        System.out.println("El perro ladra");
+    }
+}
+
+class Gato extends Animal {
+    void hacerSonido() {
+        System.out.println("El gato maúlla");
+    }
+}
+
+// Uso del polimorfismo
+Animal miAnimal = new Perro();
+miAnimal.hacerSonido(); // Imprime: El perro ladra
+
+miAnimal = new Gato();
+miAnimal.hacerSonido(); // Imprime: El gato maúlla
+
+Permite escribir código más flexible y reutilizable, ya que puedes tratar objetos de diferentes 
+clases de manera uniforme usando una referencia común.

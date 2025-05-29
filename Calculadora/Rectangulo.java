@@ -1,5 +1,4 @@
-package emma;
-
+package Calculadora;
 
 public class Rectangulo {
 
@@ -20,9 +19,9 @@ public class Rectangulo {
         Rectangulo rect2 = new Rectangulo();
         Rectangulo rect3 = new Rectangulo();
 
-        int areaEnteros = rect1.calcularArea(5, 3);     
-        double areaDecimales = rect2.calcularArea(2.5, 4.2); 
-        int areaCuadrado = rect3.calcularArea(4);        
+        int areaEnteros = rect1.calcularArea(5, 3);
+        double areaDecimales = rect2.calcularArea(2.5, 4.2);
+        int areaCuadrado = rect3.calcularArea(4);
 
         System.out.println("Área con enteros: " + areaEnteros);
         System.out.println("Área con decimales: " + areaDecimales);
