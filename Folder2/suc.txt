@@ -1,0 +1,13 @@
+nuevos clientes banco: determinar si son candidatos a recibir una tarjeta de credito.
+El banco evalua a sus clientes tomando en cuenta su historial crediticio en un puntaje de credito de 0 a 850
+cada persona que se regitra como cliente debe proporcionar: Nombre completo, numero de cuenta, puntaje de credito.
+el sistema debe analizar el puntaje y emitir el siguiente mensaje, si puntaje es >= 700 "Es candidato"
+Si puntaje es > 600 y puntaje <700 "Requiere analisis adicional"
+Si puntaje es < 600 no es elegible
+Class = cliente bancario
+Atributos:
+Name
+card number
+Score
+Metodos:
+verificar
