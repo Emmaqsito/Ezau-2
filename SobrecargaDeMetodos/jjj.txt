@@ -1,0 +1,20 @@
+Sobre carga de metodos
+La sobrecarga de métodos es una característica de la 
+programación orientada a objetos que permite definir varios
+ métodos con el mismo nombre dentro de una clase, pero con 
+ diferentes listas de parámetros (tipo, número o ambos).
+
+¿Cómo funciona? El compilador distingue cuál método llamar 
+según los argumentos que se pasan a¿l invocarlo.
+
+class Calculadora {
+    int suma(int a, int b) {
+        return a + b;
+    }
+
+    double suma(double a, double b) {
+        return a + b;
+    }
+}
+clase rectangulo: y definir el metodo calcular area, su primera version recibe como parametros base y altura
+de tipo enteros

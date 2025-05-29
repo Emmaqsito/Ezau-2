@@ -1,0 +1,24 @@
+La herencia es un principio fundamental de la programación 
+orientada a objetos que permite crear una nueva clase 
+(llamada subclase o clase hija) a partir de una clase existente 
+(llamada superclase o clase padre). La subclase hereda los 
+atributos y métodos de la superclase, y puede agregar nuevos o 
+modificar los existentes.
+
+Ventajas de la herencia:
+
+Reutilización de código.
+Facilita la extensión y el mantenimiento.
+Permite crear jerarquías de clases.
+
+class Animal {
+    void comer() {
+        System.out.println("El animal come");
+    }
+}
+
+class Perro extends Animal {
+    void ladrar() {
+        System.out.println("El perro ladra");
+    }
+}
