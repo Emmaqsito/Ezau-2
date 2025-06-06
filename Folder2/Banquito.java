@@ -24,7 +24,7 @@ public class Banquito {
 
     public static void main(String[] args) {
         Banquito client1 = new Banquito("Ezau Craig", "5555555", 800);
-        Banquito client2 = new Banquito("Polo Gay", "666666", 666);
+        Banquito client2 = new Banquito("Polo Gay", "6666666", 666);
         Banquito client3 = new Banquito("DEP Arqui", "77777", 1);
 
         System.out.println(client1.name + ","+ " con numero de cuenta : " + client1.accountNumber + " "+ client1.verify());
